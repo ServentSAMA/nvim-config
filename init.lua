@@ -34,7 +34,7 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 -- 搜索不要高亮
 vim.o.hlsearch = false
- 
+
 vim.o.incsearch = true
 -- 命令模式行高
 vim.o.cmdheight = 1
@@ -55,9 +55,9 @@ vim.o.writebackup = false
 vim.o.swapfile = false
 -- smaller updatetime
 vim.o.updatetime = 300
- 
+
 vim.o.timeoutlen = 500
- 
+
 vim.o.splitbelow = true
 vim.o.splitright = true
 -- 自动补全不自动选中
@@ -69,9 +69,9 @@ vim.opt.termguicolors = true
 -- 不可见字符的显示，这里只把空格显示为一个点
 vim.o.list = false
 vim.o.listchars = "space:·,tab:>-"
- 
+
 vim.o.wildmenu = true
- 
+
 vim.o.shortmess = vim.o.shortmess .. "c"
 -- 补全显示10行
 vim.o.pumheight = 10
